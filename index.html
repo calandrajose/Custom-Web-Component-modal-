@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Component</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="modal.js"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <uc-modal>
+      <h1 slot="title">Please Confirm</h1>
+      <p slot="main">
+        With your confirmation you are accepting the terms and conditions
+      </p>
+    </uc-modal>
+    <p>Please confirm your choice or not</p>
+    <button>Show details and confirm</button>
+  </body>
+</html>
